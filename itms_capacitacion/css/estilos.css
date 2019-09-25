@@ -1,0 +1,171 @@
+body{
+	background-image: url("../files/img/fondo.jpg");
+}
+
+.color1{
+	background: #fff;
+}
+
+.color2{
+	background: rgba(137, 137, 137, 0.3);
+}
+
+.div{
+	width: 70%;
+	margin-top: 5%;
+	box-shadow: 3px 3px 12px #000;
+}
+
+.encabezado{
+	color: #fff; 
+	text-align: center; 
+	padding-top: 3%;
+	font-size: 22px;
+	text-shadow: 1.5px 1px 1px #F18F11;
+	background: #092F5D;
+}
+
+.encabezado2{
+	color: #fff; 
+	text-align: center; 
+	padding-top: 2%;
+	font-size: 22px;
+	text-shadow: 1.5px 1px 1px #F18F11;
+	background: #092F5D;
+}
+
+.navegacion{
+	background: #092F5D;
+	height: 75px;
+}
+
+.sesion{
+	color: #fff;
+	font-size: 16px;
+	text-shadow: 1.5px 1px 1px #F18F11;
+	margin-left: 1%;
+}
+
+.logo2{
+	width: 100%;
+	height: 70px;
+}
+
+.logo{
+	width: 240px;
+	height: 70px;
+}
+
+.espacio{
+	padding-top: 2%
+}
+
+.centro{
+	justify-content: center;
+}
+
+.t_centro{
+	text-align: center;
+}
+
+.inputs{
+	border:none;
+	border-bottom: 2px solid #898989;
+	margin-top: 5px;
+}
+
+.labels{
+	font-size: 18px;
+	padding-left: 20%;
+}
+
+.b_bottom{
+	border-bottom: 5px solid #898989;
+}
+
+.enlaces{
+	background: #f2f2f2;
+	height: 55px;
+	font-size: 18px;
+	padding-top: 5%;
+}
+
+/*.enlaces:hover{
+	background: #DCDCDC;
+	border-right: 2px solid #898989;
+	transition: 0.1s;
+	color:#092F5D;
+	font-weight: bold;
+}*/
+
+.links{
+	text-decoration: none;
+	color:rgba(0, 0, 0, 0.5);
+	font-size: 14px;
+}
+
+.links:hover{
+	color:rgba(0, 0, 0, 0.8);
+	transition: 0.5s;
+	text-decoration: none;
+}
+
+.boton_menu{
+	background: #fff;
+	color:#092F5D;
+	font-size: 16px;
+}
+
+.boton_menu:hover{
+	transition: 0.5s;
+	color:#fff;
+	border: 1px solid #fff; 
+	background:#092F5D;
+}
+
+.dropdown{
+	background: #f2f2f2;
+	padding-bottom: 3%;
+}
+
+.dropdown:hover{
+	background: #DCDCDC;
+	border-right: 1px solid #818181;
+	transition: 0.1s;
+	color: #092F5D;
+}
+
+.dropdown a{
+	padding-top: 6%;
+	color:#4F4F4F;
+	margin-left: 8.5%;
+	font-size: 18px;
+}
+
+.dropdown-menu a:hover{
+	background: none;
+	color: #092F5D;
+	font-weight: bold;
+	transition: 0.1s;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+div.barra{
+	position: absolute;
+	height: 55px;
+	width: 0px;
+	background: #092F5D;
+	opacity: 0.3;
+	-webkit-transition: width 250ms;
+	border-right: 5px solid #092F5D;
+	margin-left: -20px;
+	margin-top: -13px;
+}
+
+a:hover div.barra{
+	width: 100%;
+}
+
